@@ -132,7 +132,7 @@ main {
 /* hero section */
 .hero {
     color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(./assets/img/jaeger-3.jpg) no-repeat top;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/assets/img/jaeger-3.jpg) no-repeat top;
     background-size: cover;
     display: flex;
     flex-direction: column;
