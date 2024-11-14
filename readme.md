@@ -23,10 +23,14 @@ This is a company that providing maintenance for The Jaeger (a robot for figth t
 1. I add the custom custom font at the H1 of Hero in index.html
 2. I add the text-shadow also at the H1 of Hero in index.html
 
-![the result of task one & task two](/assets/markdown/task-1.png)
+<img src="/assets/markdown/task-1.png heigth="20px" alt="task 1 and task 2 result">
+
+
+
 4. I am applying the responsive background image at the Hero in index.html
 
 ![the result of task three](/assets/markdown/task-3.PNG)
+
 5. I am applying the responsive image with picture at card in index.html
 
 ![the result of task four (global resolution)](/assets/markdown/task-4-a.PNG)
