@@ -3,222 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="Jaeger Premium Care - Maintenance Services of Jaegers">
-    <link rel="icon" type="image/x-icon" href="assets/jaeger-logo.png">
-    <link rel="stylesheet" href="styles.css">
-    <title>Contact Us</title>
+    <link rel="shortcut icon" href="assets/img/jaeger-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Jaeger Premium Care</title>
 </head>
+
 <body>
 
+    <!-- header section -->
     <header>
         <!-- navigation section -->
         <nav class="nav-bar">
             <div>
-                <a href="home">
-                    <img src="assets/jaeger-logo.png" alt="logo" width="100px">
+                <a href="index.html">
+                    <img src="assets/img/jaeger-logo.png" alt="web-logo">
                 </a>
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">home</a></li>
                 <li><a href="services.html">services</a></li>
-                <li><a href="contact-us.html">contact</a></li>
                 <li><a href="gallery.html">gallery</a></li>
+                <li><a href="contact.html">contact</a></li>
             </ul>
         </nav>
         <!-- end of navigation section -->
+
     </header>
+    <!-- end of header section -->
+    
 
+    <!-- main section -->
     <main>
-        <!-- heading section -->
-        <section id="heading-section">
-            <div>
-                <h1 class="heading-1">BOOK YOUR SERVICES</h1>
-                <p class="heading-2">Fill the form and wait for us to contact you</p>
-            </div>
-        </section>
-        <!-- end of heading section -->
 
-        <!-- Form Section -->
-        <section id="contact-us-form">
-            <div>
-                <form action="">
-                        <fieldset>
-                            <!-- <legend class="heading-2">Contact Us</legend> -->
-                            
-                            <!-- user name -->
-                            <div class="form-set" id="user-name">
-                                <div>
-                                    <label for="first-name">First Name</label>
-                                    <input type="text" name="first-name" placeholder="First Name">
-                                </div>
-                                <div>
-                                    <label for="last-name">Last Name</label>
-                                    <input type="text" name="last-name" placeholder="Last Name">
-                                </div>
-                            </div>
-                            <!-- end of user name -->
+        <!-- form section -->
+            <section class="contact-page">
+                <div>
+                    <div class="contact-title">
+                        <h1>contact us</h1>
+                        <p>Fill this form and let the professionals handle your Jaeger.</p>
+                        <div>
+                            <ul>
+                                <li><a href="https://www.instagram.com/nurlianto_aldi/"><img src="assets/img/socmed-ig.png" alt="ig"></a></li>
+                                <li><a href="#"><img src="assets/img/socmed-fb.png" alt="fb"></a></li>
+                                <li><a href="#"><img src="assets/img/socmed-yt.png" alt="yt"></a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-                            <!-- user email and phone -->
-                            <div class="form-set">
-                                <div class="form-set">
-                                    <label for="user-email">Email Address</label>
-                                    <input type="email" name="user-email" placeholder="Email Address">
-                                </div>
-                                <div>
-                                    <label for="phone-number">Phone Number</label>
-                                    <input type="number" name="phone-number" placeholder="Phone Number">
-                                </div>
-                            </div>
-                            <!-- end of user email and phone -->
-                            
-                            <!-- pilot age and dob -->
-                            <div class="form-set">
-                                <div>
-                                    <label for="pilot-age">Age</label>
-                                    <input type="number" name="pilot-age" placeholder="Your Age">
-                                </div>
-                                <div>
-                                    <label for="date-of-birth">Date of Birth</label>
-                                    <input type="date" name="date-of-birth">
-                                </div>
-                            </div>
-                            <!-- end of pilot age and dob -->
+                    <!-- form section -->
+                    <div class="contact-form">
+                        <form action="#">
+                            <fieldset>
+                                                       
+                                <!-- <legend>Jaeger Maintenance</legend> -->
 
-                            <!-- user district -->
-                            <div class="form-set-single">
-                                <label for="district">District</label>
-                                <input type="number" name="district" placeholder="Which District Are You In?">
-                            </div>
-                            <!-- end of user district -->
-
-                            <!-- Jaeger Type -->
-                            <div class="form-set-single">
-                                <label for="jaeger-type">Jaeger Type</label>
-                                <select name="kaiju-type" id="">
-                                    <option value="" disabled selected>--Select Jaeger Type--</option>
-                                    <option value="">Gipsy Danger</option>
-                                    <option value="">Striker Eureka</option>
-                                    <option value="">Chemo Alpha</option>
-                                    <option value="">Coyote Tango</option>
-                                    <option value="">Brawler Yukon</option>
-                                    <option value="">Crimson Typhoon</option>
-                                    <option value="">Gypsi Avenger</option>
-                                    <option value="">Others</option>
-                                </select>
-                            </div>
-                            <!-- end of Jaeger Type -->
-                            
-                            <!-- service choose -->
-                            <div class="form-set-multiple">
-                                <label for="service-type">What Kind of Service do You Want?</label>
-                                <ul>
-                                    <li><input type="radio" name="service-type" value="Basic Maintenance">Basic Maintenance</li>
-                                    <li><input type="radio" name="service-type">Armor Upgrade</li>
-                                    <li><input type="radio" name="service-type">Booster Upgrade</li>
-                                    <li><input type="radio" name="service-type">Full Maintenance and Upgrade</li>
-                                </ul> 
-                            </div>
-                            <!-- end of service choose -->
-
-                            <!-- Type of Kaiju Defeated by User -->
-                            <div class="form-set-multiple">
-                                <label for="type-of-kaiju-defetead">Type of Kaiju Defeated</label>
-                                <div>
-                                    <ul>
-                                        <li><input type="checkbox" name="kaiju" id="">Godzilla</input></li>
-                                        <li><input type="checkbox" name="kaiju" id="">Veran</input></li>
-                                        <li><input type="checkbox" name="kaiju" id="">Space Godzilla</input></li>
-                                        <li><input type="checkbox" name="kaiju" id="">Supergiant-class Kaiju</input></li>
-                                    </ul>
-                                    <ul>
-                                        <li><input type="checkbox" name="kaiju" id="">Giant-class Kaiju</input></li>
-                                        <li><input type="checkbox" name="kaiju" id="">Midsize Kaiju</input></li>
-                                        <li><input type="checkbox" name="kaiju" id="">Miniature Kaiju</input></li>
-                                        <li><input type="checkbox" name="kaiju" id="">Others</input></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- End of Type of Kaiju Defeated by User -->
-
-                            <!-- Kaiju Defeated by User -->
-                            <div class="form-set-single">
-                                <label for="kaiju-defeated">Kaiju Defeated</label>
-                                <input type="number" name="kaiju-defeated" placeholder="How Many Kaiju has Been Defeated?">
-                            </div>
-                            <!-- End of Kaiju Defeated by User -->
-
-                            <div class="form-set-when">
-                                <label for="pickup-date">When Did You Expect To Take The Jaeger That Has Been Maintained</label>
-                                <div>
+                                <!-- user name -->
+                                <div class="form-set" id="user-name">
                                     <div>
-                                        <input type="date" name="pickup-date" id="">
+                                        <label for="first-name">First Name</label>
+                                        <input type="text" name="first-name" placeholder="First Name">
                                     </div>
                                     <div>
-                                        <input type="time" name="pickup-date" id="">
+                                        <label for="last-name">Last Name</label>
+                                        <input type="text" name="last-name" placeholder="Last Name">
                                     </div>
                                 </div>
-                            </div>
+                                <!-- end of user name -->
 
-                            <!-- submit button -->
-                            <div id="submit-button">
-                                <input class="contact-us" type="submit" value="MAINTENANCE MY JAEGER">
-                            </div>
-                        </fieldset>
-                </form>
-            </div>
-        </section>
+                                <!-- user email and phone -->
+                                <div class="form-set" id="email-phone">
+                                    <div>
+                                        <label for="user-email">Email   Address</label>
+                                        <input type="email" name="user-email"   placeholder="Email Address">
+                                    </div>
+                                    <div>
+                                        <label for="phone-number">Phone     Number</label>
+                                        <input type="number"    name="phone-number"    placeholder="Phone Number">
+                                    </div>
+                                </div>
+                                <!-- end of user email and phone -->
+
+                                <!-- district and jaeger type section -->
+                                <div class="form-set" id="district-jaeger">
+                                    <div>
+                                        <label for="district">District</label>
+                                        <input type="number" name="district" placeholder="Which District Are You In?">
+                                    </div>
+
+                                    <div class="form-set-single">
+                                        <label for="jaeger-type">Jaeger Type</label>
+                                        <select name="kaiju-type" id="">
+                                            <option value="" disabled selected>--Select Jaeger Type--</option>
+                                            <option value="">Gipsy Danger</option>
+                                            <option value="">Striker Eureka</option>
+                                            <option value="">Chemo Alpha</option>
+                                            <option value="">Coyote Tango</option>
+                                            <option value="">Brawler Yukon</option>
+                                            <option value="">Crimson Typhoon</option>
+                                            <option value="">Gypsi Avenger</option>
+                                            <option value="">Others</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- end of district and jaeger type section  -->
+
+                                <!-- service choose -->
+                                <div class="form-set-single">
+                                    <label for="services-type">Services Type</label>
+                                    <select name="services-type" id="">
+                                        <option value="" disabled selected>--Choose Service Type--</option>
+                                        <option value="">Basic Maintenance</option>
+                                        <option value="">Armor Upgrade</option>
+                                        <option value="">Booster Upgrade</option>
+                                        <option value="">Full Maintenance</option>
+                                    </select>
+                                </div>
+                                <!-- end of service choose -->
+
+                                <!-- submit button section -->
+                                <div class="submit-button">
+                                    <a class="button" href="">submit</a>
+                                </div>
+                                <!-- end of submit button section -->
+                            </fieldset>
+                        </form>
+                        
+
+                    </div>
+                    <!-- end of form section -->
+    
+                </div>
+            </section>
         <!-- end of form section -->
+
+
     </main>
+    <!-- end of main section -->
 
-
-    <!-- Footer Section -->
-    <footer id="footer">
-        <div>
+    <!-- footer section -->
+    <footer>
+        <!-- services link -->
+        <div class="services-link">
             <div>
-                <p>Services</p>
+                <h3>services</h3>
                 <ul>
-                    <li><a href="contact-us.html">Maintenance</a></li>
-                    <li><a href="contact-us.html">Tune Up</a></li>
-                    <li><a href="contact-us.html">Glow Up</a></li>
+                    <li><a href="services.html">maintenance</a></li>
+                    <li><a href="services.html">upgrade</a></li>
+                    <li><a href="services.html">glow up</a></li>
                 </ul>
             </div>
+            <!-- end of services link -->
+
+            <!-- contact link -->
             <div>
-                <p>Contact us</p>
-                    <ul>
-                        <li><a href="">totallyfake@email.com</a></li>
-                        <li><a href="">+1 234 5678</a></li>
-                        <li>Nurlianto-Aldi</li>
-                    </ul>
+                <h3>contact us</h3>
+                <ul>
+                    <li><a href="gmail.com">jaegerpremium@care.com</a></li>
+                    <li><a href="https://wa.me/+628980060024">+1 234 5678</a></li>
+                    <li>Nurlianto-Aldi</li>
+                </ul>
             </div>
+            <!-- end of contact link -->
+
+            <!-- working hour link -->
             <div>
-               <p>Working hour</p>
+                <h3>working hour</h3>
                 <ul>
                     <li>Monday - Friday</li>
-                    <li>8am - 4pm</li>
+                    <li>9am - 4pm</li>
                 </ul>
             </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="">
-                            <img src="assets/facebook.png" alt="Facebook">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="assets/instagram.png" alt="Instagram">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="assets/youtube.png" alt="Youtube">
-                        </a>
-                    </li>
-                </ul>
-                <p>&#169; 2024 Nurlianto Aldi</p>
+            <!-- end of working hour link -->
+
+            <!-- copyright link -->
+            <div class="socmed">
+                <div>
+                    <ul>
+                        <li><a href="#"><img src="assets/img/socmed-fb.png" alt="fb-link"></a></li>
+                        <li><a href="https://www.instagram.com/nurlianto_aldi/"><img src="assets/img/socmed-ig.png" alt="ig-link"></a></li>
+                        <li><a href="#"><img src="assets/img/socmed-yt.png" alt="yt-link"></a></li>
+                    </ul>
+                </div>
+                <h3>&#169 2025 Nurlianto Aldi</h3>
             </div>
         </div>
+            <!-- end of copyright link -->
+             
     </footer>
-    <!-- End of Footer Section -->
+    <!-- footer section -->
 </body>
+
 </html>
